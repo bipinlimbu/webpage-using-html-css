@@ -109,11 +109,42 @@ ul li a:hover {
 }
 
 .content {
+    display: flex;
     width: 1300px;
     height: auto;
     margin: auto;
     color: white;
     position: relative;
-    font-size: 39;
+    font-size: 30px;
     font-weight: bold;
+    line-height: 60px;
+}
+
+.lrm {
+    width: auto;
+    color: white;
+    margin-left: 110px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.jns {
+    height: 40px;
+    width: 140px;
+    margin-left: 110px;
+    padding: 5px;
+    margin-top: 40px;
+    background: orangered;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.jns a {
+    text-decoration: none;
+    color: white;
+
 }
